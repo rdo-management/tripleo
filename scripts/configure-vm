@@ -7,10 +7,7 @@ import random
 
 import libvirt
 
-templatedir = os.path.join(
-                os.path.dirname(
-                  os.path.dirname(
-                    os.path.abspath(__file__))), 'templates')
+templatedir="/usr/share/tripleo/templates"
 
 MAX_NUM_MACS = math.trunc(0xff/2)
 
